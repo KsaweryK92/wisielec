@@ -1,0 +1,43 @@
+Nazwa - *__wisielec.py__*
+
+Autor - *__Ksawery Karbowniczek__*
+
+Data powstania - *__Listopad 2019__*
+
+Wersja oprogramowania - *__Python 3.7.4__*
+
+System operacyjny - *__Linux (Mint)__*
+
+---
+**Wstęp**
+
+>W grze __wisielec__ twoim zadaniem będzie odgadnąć słowo wylosowane przez komputer z 
+stałej listy słów zainicjowanych przez programistę. Słowo jest przedstawione jako 
+ciąg '-' w ilości odpowiadającej ilości liter wylosowanego słowa.
+
+**Rozgrywka**
+
+>Aby zagrać w grę __wisielec__ należy uruchomić plik `wisielec.py`. Następnie komputer
+losuje słowo i przedstawia je jako ciąg kresek. Gracz proszony jest o podanie litery,
+która jego zdaniem zawiera się w ukrytym słowie. Jeżeli podana litera zawiera się już
+w szerego liter użytych/podancyh przez gracza wcześniej, system ponowi pytanie o podanie 
+litery do czasu podania litery nie będącej częścią szeregu liter już użytych/podanych.
+Po podaniu litery przez gracza system pyta go, czy zna już odpowiedź i chce odganąć hasło.
+Jeżeli tak i uda mu się ta sztuka to gracz otrzymuje gratulacje i jest proszony o podanie
+nazwy dla pliku, gdzie zachowane zostaną jego osiągnięcia.
+
+**Moduły dodatkowe**
+
+>Moduły zewnętrzne - `random`, `datetime`, `json`
+
+>Moduły wewnętrzne - `funkcje własne`
+
+**Informacje dodatkowe**
+
+>Informacje, jakie zapisywane są w pliku to między innymi:
+>* hasło do odganięcia,
+>* licznik prób nieudanych,
+>* licznik wszystkich prób,
+>* litery podane przez gracza,
+>* czas odgadnięcia słowa.
+
